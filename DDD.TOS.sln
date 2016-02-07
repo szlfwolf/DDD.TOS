@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{A6C2A6B5-7B75-43B4-8F70-39E2F66EEA54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{1D45B550-7E10-40F6-B50D-ACBC62590C75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{5500DB04-5089-488C-9D44-AFBBFCADE61C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{53946B06-A54A-4262-B9A8-80DF5F8B9BF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-UnitTest", "5-UnitTest", "{57015657-C85B-4D96-8891-9BEB40F71686}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{360E5133-BDD9-4A17-870E-B1B1C3D33D5C}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.TOS.Domain", "Domain\DDD.TOS.Domain.DomainModel\DDD.TOS.Domain.csproj", "{C488CEE1-B6C9-463B-AC41-2546A904627A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.TOS.Domain.Test", "Test\DDD.TOS.Domain.Test\DDD.TOS.Domain.Test.csproj", "{A0402C8F-4EBB-4A8C-A477-222F2B1D7045}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C488CEE1-B6C9-463B-AC41-2546A904627A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C488CEE1-B6C9-463B-AC41-2546A904627A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C488CEE1-B6C9-463B-AC41-2546A904627A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C488CEE1-B6C9-463B-AC41-2546A904627A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0402C8F-4EBB-4A8C-A477-222F2B1D7045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0402C8F-4EBB-4A8C-A477-222F2B1D7045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0402C8F-4EBB-4A8C-A477-222F2B1D7045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0402C8F-4EBB-4A8C-A477-222F2B1D7045}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C488CEE1-B6C9-463B-AC41-2546A904627A} = {5500DB04-5089-488C-9D44-AFBBFCADE61C}
+		{A0402C8F-4EBB-4A8C-A477-222F2B1D7045} = {57015657-C85B-4D96-8891-9BEB40F71686}
+	EndGlobalSection
+EndGlobal
